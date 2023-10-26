@@ -1,0 +1,98 @@
+@import url(./cssSeparados/menu.css);
+@import url(./cssSeparados/banner.css);
+@import url(./cssSeparados/blog.css);
+@import url(./cssSeparados/info.css);
+@import url(./cssSeparados/footer.css);
+@import url(./cssSeparados/prueba.css);
+
+/* Declaracion de variables */
+
+:root {
+    --rojo: #FF5722;
+    --negro: #000000;
+    --blanco: #FFFFFF;
+    --naranja: #FFE0B2;
+    --gris-claro: #ECEFF1;
+}
+
+/* Css general */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+
+/* Estilo del header, barra superior */
+
+header {
+    width: 100%;
+    height: 50px;
+    background: var(--negro);
+    color: var(--blanco);
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.contenedor {
+    width: 90%;
+    margin: auto;
+}
+
+/*Bernabe de la izquierda superior*/
+h1 {
+    float: left;
+    font-family: 'Permanent Marker', cursive;
+    margin-left: 20px;
+    color: var(--naranja);
+}
+
+h1 span{
+    margin: 5px;
+}
+
+header .contenedor {
+    display: table;
+}
+
+#banner{
+    width: 100%;
+}
+
+#bienvenidos {
+    text-align: center;
+    width: 100%;
+    background-color: var(--rojo);
+    padding-top: 25px;
+    color: var(--negro);
+}
+
+span img {
+    height: 30px;
+    width: auto;
+}
+
+.musica {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#youtube {
+    display: none;
+    visibility: hidden;
+}
+
+@media (min-width: 1024px) {
+    .contenedor {
+        width: 1000px;
+    }
+}
+
+@media (min-width: 300px) {
+    .contenedor {
+        width: 100%;
+    }
+}

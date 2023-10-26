@@ -1,0 +1,26 @@
+#prueba{
+    background: linear-gradient(var(--naranja),#111);
+}
+
+.contenedor_prueba {
+    margin: 0%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    width: 95%;
+    margin: auto;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.contenedor_prueba .image{
+    width: 100%;
+    vertical-align: top;
+    height: 500px;
+    object-fit: cover;
+}
+
+.contenedor_prueba .image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
