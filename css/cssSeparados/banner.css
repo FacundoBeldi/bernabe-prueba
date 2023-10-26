@@ -84,7 +84,6 @@
     #banner a {
         margin-top: 25px;
     }
-   
 }
 
 @media (min-width: 768px) {
@@ -107,7 +106,7 @@
 @media (max-width: 768px) {
  
     #banner .contenedor{
-        top: 10%;
+        top: 30%;
     }
 }
 

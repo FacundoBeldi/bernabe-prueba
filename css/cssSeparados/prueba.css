@@ -24,3 +24,9 @@
     height: auto;
     display: block;
 }
+
+@media (min-width: 450px) {
+    .contenedor_prueba .image{
+        height: auto;
+    }
+}
